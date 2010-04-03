@@ -1,0 +1,572 @@
+/*
+Theme Name: Merdeka
+Description: Merdeka theme originally designed by ikram-zidane (http://ikram-zidane.com/) and readapted for WP 2.6 by Adrián Navarro (http://adrian.navarro.at/)
+Version: 2.0
+Author: Ikram-zidane and Adrián Navarro
+Tags: merdeka, one column, top sidebar, simple, clean
+
+	Merdeka theme originally designed by ikram-zidane (http://ikram-zidane.com/) and readapted for WP 2.6 by Adrián Navarro (http://adrian.navarro.at/)
+
+*/
+
+* {outline:none}
+
+#archive-history
+{
+	float:left;
+	width:240px
+}
+#archive-history ul li
+{
+	margin-left:23px;
+}
+#archive-history ul li a
+{
+	color:#80A189;
+}
+
+#archive-history ul li a:hover
+{
+	color:#80A5B1
+}
+
+#comment
+{
+	float:left;
+	margin:0 auto;
+	text-align:left;
+	width:200px
+}
+
+#comment form
+{
+	background-color:inherit;
+	color:#bbb;
+	margin:0
+}
+
+#comment-item
+{
+	color:#666;
+	margin:0 auto;
+	padding:0;
+	text-align:left;
+	width:500px
+}
+
+#container
+{
+	color:#5A5A5A;
+	font-size:11px;
+	margin:20px auto 30px;
+	text-align:left;
+	width:500px
+}
+
+#container h4,#hasil-comment h4,#comment h4
+{
+	color:#9C9C9C;
+	font-family:"trebuchet ms", georgia, arial, tahoma;
+	font-size:10px;
+	font-weight:700;
+	text-transform:uppercase
+}
+
+#container p
+{
+	margin-bottom:10px
+}
+
+#container ul
+{
+	list-style-type:none;
+	margin:0 0 0 10px;
+	padding:0
+}
+
+#container ul li
+{
+	background:transparent url(images/content.gif) no-repeat center left;
+	list-style-type:none;
+	margin:0;
+	padding:0 0 0 15px
+}
+
+#displaybar
+{
+	border:1px solid #363636;
+	height:0
+}
+
+#footer
+{
+	background:#fff url(images/footer.gif) repeat-x bottom left;
+	clear:both;
+	color:#656565;
+	height:45px;
+	line-height:15px;
+	margin:0 auto;
+	padding-bottom:10px;
+	width:500px
+}
+
+#form-name,#form-mail,#form-link,#coment-message
+{
+	background-color:#f9f9f9;
+	border:3px double #e3e3e3;
+	color:#666;
+	font:11px arial,"trebuchet ms", tahoma, georgia;
+	margin-bottom:0.6em;
+	padding:1px;
+	width:100%
+}
+
+#form-name:focus,#form-mail:focus,#form-link:focus,#coment-message:focus
+{
+	background-color:#fff;
+	border:3px double #bbb;
+	color:#555
+}
+
+#hasil-comment
+{
+	float:right;
+	text-align:left;
+	width:240px
+}
+
+#hasil-comment p
+{
+	margin:0;
+	padding:0
+}
+
+#header
+{
+	background:transparent url(images/header.gif) no-repeat bottom center;
+	color:#797979;
+	margin:0 auto 10px;
+	padding:5px 5px 33px;
+	text-align:center
+}
+
+#header a
+{
+	color:#4D4D4D;
+	text-decoration:none
+}
+
+#header a:hover
+{
+	color:#2A6FA8;
+	text-decoration:none
+}
+
+#header h1
+{
+	color:#4D4D4D;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:30px;
+	margin:0;
+	padding:10px 0 0;
+	text-transform:capitalize
+}
+
+.info
+{
+	color:#666
+}
+
+#js
+{
+	margin:0 auto;
+	text-align:center;
+	text-indent:-9999px;
+	width:140px
+}
+
+#navigation
+{
+	background:#363636;
+	border:1px solid #363636;
+	color:#999;
+	display:none;
+	font-size:11px;
+	overflow:hidden;
+	padding:0
+}
+
+#navigation ul
+{
+	list-style-type:none;
+	margin:10px 0 0;
+	padding:0
+}
+
+#navigation ul li
+{
+	margin:0;
+	padding:0
+}
+
+#navigation ul li a
+{
+	border-bottom:1px solid #444;
+	display:block;
+	height:20px;
+	margin:0;
+	padding:0;
+	text-decoration:none
+}
+
+#navigation-container
+{
+	margin:0 auto;
+	overflow:hidden;
+	padding:0 0 10px;
+	text-align:left;
+	width:800px
+}
+
+#navigation-container a
+{
+	color:#97AF6A
+}
+
+#navigation-container a:hover
+{
+	color:#D27C9E
+}
+
+#navigation-container h3
+{
+	background:transparent url(images/h3.gif) repeat-x bottom left;
+	color:#91BFCE;
+	font-size:11px;
+	margin:20px 0 5px;
+	padding:0 0 1px;
+	text-transform:capitalize
+}
+
+#recent-post ul li a
+{
+	background:transparent url(images/recent.gif) no-repeat center left;
+	color:#C38DA3;
+	padding-left:23px
+}
+
+#recent-post ul li a:hover
+{
+	background:transparent url(images/recent2.gif) no-repeat center left;
+	color:#D7D7D7
+}
+
+.feedlist li a {
+	background:url(images/bullet_feed.png) no-repeat;
+	padding-left:16px !important;
+}
+
+#recent-post,#page-about
+{
+	float:left;
+	margin:0;
+	padding:0 0 0 40px;
+	width:240px
+}
+
+#searchform2
+{
+	background:#F0F0F0;
+	border:2px solid #494949;
+	padding:6px 3px
+}
+
+#searchsubmit2
+{
+	background:#F0F0F0;
+	border:2px solid #494949;
+	padding:5px 0
+}
+
+#submit input
+{
+	width:auto
+}
+
+*
+{
+	margin:0;
+	padding:0
+}
+
+.about-entry
+{
+	background-color:#f9f9f9;
+	color:#666;
+	margin-bottom:40px;
+	padding:5px
+}
+
+.alignleft
+{
+	text-align:left
+}
+
+.alignright
+{
+	text-align:right
+}
+
+.bubble
+{
+	background:transparent url(images/comment.gif) no-repeat center left;
+	padding-left:17px
+}
+
+.clear
+{
+	clear:both
+}
+
+.commentlist
+{
+	list-style-type:none;
+	margin:0 0 30px;
+	padding:0
+	background-color:#f9f9f9;
+}
+
+.commentlist .graybox
+{
+	background-color:#f9f9f9;
+	border:1px solid #e3e3e3;
+	color:#666
+}
+
+.commentlist li
+{
+	background-color:#f9f9f9;
+	border:1px solid #e3e3e3;
+	color:#666;
+	margin:10px 0;
+	padding:3px 7px
+}
+
+.date
+{
+	background:url(images/calendar.gif) no-repeat;
+	float:left;
+	font-family:georgia;
+	height:42px;
+	line-height:12px;
+	text-align:left;
+	width:34px
+}
+
+.date p
+{
+	color:#7A7A7A;
+	margin:0;
+	padding-left:8px;
+	padding-top:7px;
+	text-transform:uppercase
+}
+
+.date span.day
+{
+	display:block;
+	font-size:18px
+}
+
+.date span.month
+{
+	color:#898989;
+	display:block;
+	font-size:9px;
+	height:12px
+}
+
+.distance
+{
+	margin:20px 0
+}
+
+.entry
+{
+	color:#7A7A7A;
+	font-size:11px;
+	height:42px;
+	margin-bottom:10px;
+	margin-top:25px;
+/*	text-align:left*/
+}
+
+.entry h2
+{
+	background:url(images/h2.gif) repeat-x bottom left;
+	color:#EA2788;
+	font-family:georgia, "trebuchet ms", arial, tahoma;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.entry h2 a
+{
+	color:#2A6FA8;
+	text-decoration:none;
+}
+
+.entry h2 a:hover
+{
+	color:#EA2788;
+	text-decoration:none
+}
+
+.info
+{
+	float:right;
+	width:460px
+}
+
+.nomargin
+{
+	margin:0
+}
+
+.post
+{
+	color:#656565;
+	font-size:11px;
+	margin:0 auto;
+	padding:0;
+/*	text-align:left;*/
+	width:500px
+}
+
+.sep
+{
+	background:url(images/seperator.gif) no-repeat;
+	clear:both;
+	height:72px;
+	margin:0 auto;
+	padding:0;
+	width:500px
+}
+
+.styled
+{
+	margin:0
+}
+
+a
+{
+	color:#EA2788;
+	text-decoration:none
+}
+
+a#toggle
+{
+	background:transparent url(images/toggle.gif) no-repeat top left;
+	display:block;
+	height:39px;
+	width:140px
+}
+
+a:hover
+{
+	color:#2A6FA8;
+	text-decoration:none
+}
+
+a:hover#toggle
+{
+	background-position:0 -39px
+}
+
+blockquote
+{
+	background:url(images/bq.gif) no-repeat;
+	color:#969696;
+	margin:0;
+	padding:0 0 0 40px
+}
+
+body
+{
+	background:#fff;
+	color:#393939;
+	font-family:arial, "trebuchet ms" , "Lucida Grande", Helvetica, sans-serif;
+	font-size:11px;
+	line-height:20px;
+	margin:0;
+	padding:0;
+	text-align:center
+}
+
+fieldset
+{
+	border:1px solid #fff;
+	border-top:1px solid #eee;
+	margin-bottom:30px
+}
+
+h1,h2,h3,h4,h5,h6,h7
+{
+	font-family:georgia, arial, "trebuchet ms";
+	font-weight:400
+}
+
+html>body #recent-post,html>body #page-about
+{
+	width:240px
+}
+
+img
+{
+	background:#f6f6f6;
+	border-bottom:1px solid #ddd;
+	border-left:#eee;
+	border-right:1px solid #ddd;
+	border-top:#eee;
+	display:block;
+	margin:4px 0;
+	padding:5px
+}
+
+img.wp-smiley
+{
+	border:none;
+	display:inline;
+	margin:0;
+	padding:0;
+	vertical-align:middle
+}
+
+input
+{
+	background-color:#f9f9f9;
+	border:3px double #e3e3e3;
+	color:#666;
+	font:11px arial,"trebuchet ms", tahoma, georgia;
+	font-size:11px;
+	padding:2px
+}
+
+label
+{
+	background-color:#FFF;
+	color:#9C9C9C
+}
+
+legend
+{
+	background-color:inherit;
+	color:#b5b5b5;
+	margin:0 0 0.5em 1em
+}
+
+.navigation
+{
+	border:1px solid #ebebeb;
+	padding:5px;
+}
